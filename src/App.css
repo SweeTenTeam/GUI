@@ -7,7 +7,7 @@
 }
 
 :root[data-theme="light"] {
-    --primary-100: #0077C2;
+    --primary-100: #03bdff;
     --primary-200: #59a5f5;
     --primary-300: #c8ffff;
     --accent-100: #00BFFF;
@@ -127,7 +127,16 @@ nav {
 
 #theme-switch {
     display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.container img {
+    margin: 0 1em;
 }
 
 #mob-theme-switcher {
@@ -170,7 +179,7 @@ nav {
 .chat-window {
     margin: 1em auto;
     height: 52em;
-    width: 95%;
+    width: 98%;
     display: flex;
     justify-content: center;
     align-items: center;

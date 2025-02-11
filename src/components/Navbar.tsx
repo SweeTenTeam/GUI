@@ -31,6 +31,7 @@ const Navbar: React.FC = () => {
 
             <div id='theme-switcher'>
                 <Switch />
+
             </div>
         </nav >
     )
