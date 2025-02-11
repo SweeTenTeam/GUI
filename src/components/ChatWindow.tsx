@@ -5,6 +5,7 @@ const ChatWindow: React.FC = () => {
     return (
         <div className='chat-window'>
             <InputForm />
+            {/*  message input bar */}
         </div>
     )
 }
