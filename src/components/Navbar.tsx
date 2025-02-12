@@ -39,6 +39,45 @@ const Navbar: React.FC = () => {
 
             </div>
         </nav >
+
+
+        // <div id='nav'>
+        //     <div className='left'>
+        //         <ul className='nav-list'>
+        //             <li id='git' className="list-li">
+        //                 <a className='nav-link' href="https://docs.github.com/en">
+        //                     GitHub
+        //                     <span className="icon" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} size='xs' /></span>
+        //                 </a>
+        //             </li>
+        //             <li id='jira' className="list-li">
+        //                 <a className='nav-link' href="https://confluence.atlassian.com/jira">
+        //                     Jira
+        //                     <span className="icon" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} size='xs' /></span>
+        //                 </a>
+        //             </li>
+        //             <li id='confl' className="list-li">
+        //                 <a className='nav-link' href="https://support.atlassian.com/confluence-cloud/resources/">
+        //                     Confluence
+        //                     <span className='icon'><FontAwesomeIcon icon={faArrowUpRightFromSquare} size='xs' /></span>
+        //                 </a>
+        //             </li >
+        //             {/* <li id='azzurro' className="list-li">
+        //                    <a className='nav-link' href="https://azzurrodigitale.com">
+        //                        <img className='azzurro' src='/azzurro.png' alt='Azzurro Digitale' />
+        //                    </a>
+        //                </li> */}
+        //         </ul >
+        //     </div>
+        //     <div className="right">
+        //         <div id="theme-switcher">
+
+
+        //             <Switch />
+
+        //         </div>
+        //     </div>
+        // </div>
     )
 }
 
