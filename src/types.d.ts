@@ -4,4 +4,6 @@ export interface Message {
     date: Date;
     isUser: boolean;
     hasFile?: boolean;
-}
+} //probelma id incrementale
+
+// export interface MessageData { }
