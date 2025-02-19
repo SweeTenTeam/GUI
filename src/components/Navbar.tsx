@@ -1,7 +1,8 @@
 import React from 'react'
 import Switch from './Switch';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+// import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faConfluence, faGithub, faJira } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -11,20 +12,23 @@ const Navbar: React.FC = () => {
             <ul className='nav-list'>
                 <li id='git' className="list-li">
                     <a className='nav-link' href="https://docs.github.com/en">
-                        GitHub
-                        <span className="icon" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} size='xs' /></span>
+                        <FontAwesomeIcon icon={faGithub} size='lg' />
+                        <p className='hidden'>GitHub</p>
+
                     </a>
                 </li>
                 <li id='jira' className="list-li">
                     <a className='nav-link' href="https://confluence.atlassian.com/jira">
-                        Jira
-                        <span className="icon" ><FontAwesomeIcon icon={faArrowUpRightFromSquare} size='xs' /></span>
+                        <FontAwesomeIcon icon={faJira} size='lg' />
+                        <p className='hidden'>Jira</p>
+
                     </a>
                 </li>
                 <li id='confl' className="list-li">
                     <a className='nav-link' href="https://support.atlassian.com/confluence-cloud/resources/">
-                        Confluence
-                        <span className='icon'><FontAwesomeIcon icon={faArrowUpRightFromSquare} size='xs' /></span>
+                        <FontAwesomeIcon icon={faConfluence} size='lg' />
+                        <p className='hidden'>Confluence</p>
+
                     </a>
                 </li >
                 {/* <li id='azzurro' className="list-li">
@@ -59,7 +63,7 @@ const Navbar: React.FC = () => {
         //             <li id='confl' className="list-li">
         //                 <a className='nav-link' href="https://support.atlassian.com/confluence-cloud/resources/">
         //                     Confluence
-        //                     <span className='icon'><FontAwesomeIcon icon={faArrowUpRightFromSquare} size='xs' /></span>
+        //                     
         //                 </a>
         //             </li >
         //             {/* <li id='azzurro' className="list-li">

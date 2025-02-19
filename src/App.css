@@ -32,7 +32,7 @@
     --primary-200: #69b4ff;
     --primary-300: #e0ffff;
     --accent-100: #006fff;
-    --accent-200: #e1ffff;
+    --accent-200: #00619a;
     --text-100: #FFFFFF;
     --text-200: #9e9e9e;
     --bg-100: #333232;
@@ -72,12 +72,12 @@ header {
     width: 20em;
 }
 
-#azzurro {
+/* #azzurro {
     width: 10em;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
 nav {
@@ -121,7 +121,14 @@ nav {
 
 .nav-list li:hover a {
     color: var(--accent-200);
+    transform: scale(1.5);
+    transition: all 0.3s ease;
+}
 
+.nav-list li:last-child:hover a {
+    color: unset;
+    transform: unset;
+    transition: unset;
 }
 
 .nav-list li a {
@@ -200,10 +207,11 @@ nav {
 
 .chat-window {
     margin: 1em auto;
-    height: 52em;
-    width: 98%;
+    height: 58em;
+    width: 88%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     /* Stack children vertically */
     justify-content: space-between;
     /* Push input to the bottom */
