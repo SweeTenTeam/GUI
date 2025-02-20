@@ -208,7 +208,7 @@ nav {
 .chat-window {
     margin: 1em auto;
     height: 58em;
-    width: 88%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,7 +308,8 @@ nav {
 /* Chat bubble */
 .bubble {
     display: inline-block;
-    width: 45%;
+    margin: 0 1em;
+    width: 35%;
     /* Limits width for readability */
     padding: 0.8em 1em;
     border-radius: 10px;
