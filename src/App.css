@@ -125,11 +125,6 @@ nav {
     transition: all 0.3s ease;
 }
 
-.nav-list li:last-child:hover a {
-    color: unset;
-    transform: unset;
-    transition: unset;
-}
 
 .nav-list li a {
     color: white;
